@@ -21,6 +21,7 @@
 ---
 
 ## Overview
+
 This project analyzes global COVID-19 data using SQL to identify trends in cases, deaths, and vaccinations. The goal is to provide actionable insights that can support public health decision-making and policy formulation across different regions.
 
 [Back to the Top](#covid-19-global-data-analysis)
@@ -28,6 +29,7 @@ This project analyzes global COVID-19 data using SQL to identify trends in cases
 ---
 
 ## Problem Statement
+
 The COVID-19 pandemic generated massive amounts of data, but understanding global patterns in deaths and vaccination rates was complex. This project aims to simplify that by querying, cleaning, and analyzing structured data to answer key questions about how the virus impacted different countries.
 
 [Back to the Top](#covid-19-global-data-analysis)
@@ -35,6 +37,7 @@ The COVID-19 pandemic generated massive amounts of data, but understanding globa
 ---
 
 ## Data
+
 - **Source**: [Public COVID-19 dataset - Our World in Data](https://ourworldindata.org/coronavirus)
 - **Description**:
   - Key columns: `country`, `date`, `total_cases`, `total_deaths`, `population`, `new_vaccinations`, `total_vaccinations`, `continent`
@@ -46,6 +49,7 @@ The COVID-19 pandemic generated massive amounts of data, but understanding globa
 ---
 
 ## Approach
+
 1. **Data Exploration and Cleaning**:
    - Standardized column names and data types
    - Removed nulls and inconsistent entries
@@ -66,6 +70,7 @@ The COVID-19 pandemic generated massive amounts of data, but understanding globa
 ---
 
 ## Tools and Technologies
+
 - Microsoft SQL Server (T-SQL)
 - SQL Server Management Studio (SSMS)
 - Tableau (Visualization)
@@ -103,10 +108,11 @@ Access the dashboard in **Tableau Public** [here](https://public.tableau.com/vie
 ---
 
 ## How to Run
+
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/pras306/covid-19-global-data.git
+   git clone https://github.com/prasanna-sriram/covid19-global-data-analysis.git
    ```
 
 2. Go to the project directory
